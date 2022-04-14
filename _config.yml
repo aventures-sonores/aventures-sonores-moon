@@ -1,7 +1,7 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              Aventures Sonores
+bio:                'Aventures Sonores: A phygital playground for an interplanetary aural community.'
+description:        "Aventures Sonores is a playground that connects  people in a communal aural aesthetic experience through an interactive audiovisual interface that renders rhythms, soundscapes, and spoken voice from the seven continents."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/aventures-avatar.jpg'
@@ -9,6 +9,7 @@ background:         'assets/img/bkgnd-space.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://aventures-sonores.github.io/aventures-sonores-moon
+#url:                https://localhost:4000
 
 # Jekyll
 permalink:          /:title/
@@ -38,8 +39,8 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
-facebook:           username
+#twitter:            username
+#facebook:           username
 github-url:         username
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
@@ -50,9 +51,9 @@ instagram:          username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
-#youtube:           username
+youtube:           username
 #youtube-channel:   channel
 #soundcloud:        username
 #weibo:             username
