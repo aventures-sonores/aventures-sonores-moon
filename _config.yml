@@ -41,11 +41,9 @@ disqus_shortname:   taylantatli
 #email:
 #twitter:            username
 #facebook:           username
-github-url:         orgs/aventures-sonores
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          aventuresonores
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
@@ -54,8 +52,11 @@ instagram:          aventuresonores
 #steam:              username
 #dribbble:          username
 #youtube:           
+soundcloud:        aventuresonores
+instagram:          aventuresonores
 youtube-channel:   UCuAEYzJCKpWCpYiS76KINDA
-#soundcloud:        username
+github-url:         orgs/aventures-sonores
+
 #weibo:             username
 #flickr:            username
 #codepen:           username
