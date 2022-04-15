@@ -2,8 +2,26 @@
 		<button class="dl-trigger">Open Menu</button>
 		<ul class="dl-menu">
 			<li><a href="{{ site.url }}/">Home</a></li>
+		
+        </li>
+        {% for link in site.data.navigation %}
+        {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+            {% else %}
+            {% assign domain = site.url %}
+        {% endif %}
+        <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+
+
 			<li>
-				<a href="#">About</a>
+				<a href="#">Aural Releases</a>
+				<ul class="dl-submenu">
+					<li><a href="{{ site.url }}/posts/">All Posts</a></li>
+					<li><a href="{{ site.url }}/tags/">All Tags</a></li>
+				</ul>
+            <li>
+				<a href="#">About AS</a>
 				<ul class="dl-submenu">
 					<li>
 						<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="author-photo">
@@ -85,20 +103,7 @@
                     </li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
-			<li>
-				<a href="#">Posts</a>
-				<ul class="dl-submenu">
-					<li><a href="{{ site.url }}/posts/">All Posts</a></li>
-					<li><a href="{{ site.url }}/tags/">All Tags</a></li>
-				</ul>
-			</li>
-			{% for link in site.data.navigation %}
-		    {% if link.url contains 'http' %}
-		        {% assign domain = '' %}
-		        {% else %}
-		        {% assign domain = site.url %}
-		    {% endif %}
-		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
-		  {% endfor %}
 		</ul><!-- /.dl-menu -->
+
+        
 	</nav><!-- /.dl-menuwrapper -->
