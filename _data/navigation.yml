@@ -1,4 +1,7 @@
 # Site navigation links
 
-- title: Projects
+- title: xLab
   url: /projects/
+
+- title: xTeam
+  url: /about/
