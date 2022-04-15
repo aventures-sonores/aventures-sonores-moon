@@ -1,7 +1,7 @@
 # Site
 title:              Aventures Sonores
 bio:                'Aventures Sonores: A phygital playground for an interplanetary aural community.'
-description:        "Aventures Sonores is a playground that connects  people in a communal aural aesthetic experience through an interactive audiovisual interface that renders rhythms, soundscapes, and spoken voice from the seven continents."
+description:        "A playground that connects  people in a communal aural aesthetic experience. Rhythms, soundscapes, and spoken voice from the seven continents."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/aventures-avatar.jpg'
@@ -9,7 +9,7 @@ background:         'assets/img/bkgnd-space.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://aventures-sonores.github.io/aventures-sonores-moon
-#url:                https://localhost:4000
+#url:                http://localhost:4000
 
 # Jekyll
 permalink:          /:title/
@@ -41,11 +41,11 @@ disqus_shortname:   taylantatli
 #email:
 #twitter:            username
 #facebook:           username
-github-url:         username
+github-url:         orgs/aventures-sonores
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+instagram:          aventuresonores
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
@@ -53,8 +53,8 @@ instagram:          username
 #foursquare:        username
 #steam:              username
 #dribbble:          username
-youtube:           username
-#youtube-channel:   channel
+#youtube:           
+youtube-channel:   UCuAEYzJCKpWCpYiS76KINDA
 #soundcloud:        username
 #weibo:             username
 #flickr:            username
@@ -65,13 +65,13 @@ youtube:           username
 
 # Gems
 gems:
-  - jekyll-mentions
+ # - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
 
-jekyll-mentions:
-    base_url: https://github.com
+#jekyll-mentions:
+ #   base_url: https://github.com
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
