@@ -7,7 +7,7 @@ comments: false
 ---
     
 
-We are AVENTURES SONORES, a creative collective group that blends art and technology to make physical and digital (phygital) experi- ential adventures.
+We are AVENTURES SONORES, a creative collective group that blends art and technology to make physical and digital (phygital) experiential adventures.
 
 Our Latin American roots and global upbringing inform a strong belief that the interrelation between people, culture, nature, and technology can provide the content, and the means, to create a global, borderless aural community. In this community, participants are no longer a simple spectator, but co-creators of sound, music and sonic wisdom.
 
